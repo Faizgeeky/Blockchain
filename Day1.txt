@@ -1,0 +1,16 @@
+Blockchain 
+
+What is blockchain?
+* Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.
+
+
+--> It is differ from Bitcoin , bitcoin uses blockchain. It is algorithm which is secured and nearly impossible to Hack. As it used node to store the every Transactions.
+--> All new transactions are connected with previous transaction node. so it is imoossible to change and all the transactions are publicy visible. 
+--> There are 2 types of blockchain 
+    * Private - Which are customized and made for private uses and are not open to all users
+    * Public - Can be accessed by any person and it's publicly open for everyone (Bitcoin , ether, etc)
+    
+--> Use Cases:
+    * Financial Orgs - Banks are using this to maintain and and track all the transaction 
+    
+--> It doesn't required trust becasuse it's secured and uses to transfer electronic fund over the Internet across all borders it's Globalaized decentralized system which means you can Transfer currencys to any region 
