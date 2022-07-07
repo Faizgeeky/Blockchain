@@ -25,6 +25,7 @@ What is Bitcoin ?
 * Bitcoin is a decentralized digital currency that you can buy, sell and exchange directly, without an intermediary like a bank. Bitcoin's creator, Satoshi Nakamoto, originally described the need for “an electronic payment system based on cryptographic proof instead of trust.
 
 
+Bitcoin or other digital currency isn't saved in a file somewhere; it's represented by transactions recorded in a blockchain—kind of like a global spreadsheet or ledger, which leverages the resources of a large P2P network to verify and approve each Bitcoin transaction. Each blockchain, like the [Bitcoin blockchain] is distributed: it runs on computers provided by volunteers around the world. There is no central database to hack. The blockchain is public: anyone can view it at any time because it resides on the network… and the blockchain is encrypted… it uses public and private keys (rather like a two-key system to access a safety deposit box) to maintain virtual security.
 
 
 -------------------- References 
