@@ -1,0 +1,33 @@
+After know about Bitcoing and Blockchain next steps is to research on tools and frameworks you can use
+
+
+Types of Blockchain Devloper:
+1. Application Developers :
+  - Who makes the contract uses the Blockchain tools which are already exists or made by core team
+2. Core Developers :
+  - Who creates the Blockchain , design the layer , set the protocols.
+  - From scratch 
+  
+  
+
+ Ethereum Devlopement Systems -- 
+  - Solidity / JS 
+  - Truffle
+    - Framework which help devloper to create contracts
+  - Hardhat 
+  - React JS
+  - Node JS
+  - Metamask
+  
+C , Rust , Solidity 
+JS 
+Python
+
+Web3.js
+- Imporatant can talk to your website and it has all information of Blockchain
+- NFT hold
+- Contracts 
+
+
+  
+ 
