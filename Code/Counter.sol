@@ -16,8 +16,8 @@ contract Counter {
 
     // write
     function setCount() public {
-        count = count + 1;
-        counter = counter + 1;
+        count = count ++;
+        counter = counter +=1;
     }
 
 
