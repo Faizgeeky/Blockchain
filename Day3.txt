@@ -1,0 +1,39 @@
+#Starting Solidity with latest Version 0.8
+
+Solidity is a object-oriented high level programming langunge 
+Solidity is a curly-bracket language designed to target the Ethereum Virtual Machine (EVM). It is influenced by C++, Python and JavaScript. You can find more details about which languages Solidity has been inspired by in the language influences section.
+
+Solidity is statically typed, supports inheritance, libraries and complex user-defined types among other features.
+
+With Solidity you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.
+
+When deploying contracts, you should use the latest released version of Solidity. Apart from exceptional cases, only the latest version receives security fixes. Furthermore, breaking changes as well as new features are introduced regularly. We currently use a 0.y.z version number to indicate this fast pace of change.
+
+Using Web based IDE . 
+- https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js
+
+Solidity file Extension is ".sol"
+i.e. - xyz.sol 
+
+
+Type - unassigned integer should be positive only 
+   - uint 
+i.e.  uint count ;
+
+
+Type - Function
+    - function()
+    
+   i.e.  function() public/internal view returns(var){
+      return val
+   }
+  
+Type - Constructor 
+  - constructor()
+ 
+  i.e. constructor() public{ }  // inititate once only while executing program
+  
+  
+
+
+
