@@ -1,0 +1,39 @@
+## Structure of Smart contract
+
+define version of sol and use same version compliler 
+
+ - pragma solidity ^0.8.11;
+ 
+ Start your contract by name contract 
+ 
+  - contract MyContract()
+ 
+  - contract new
+  
+ Last day we have seen uint 
+   - static and undefined variable 
+      * uint x;
+      
+   
+Variable Types :
+  - 1.  fixed-size types 
+        -bool isReady;
+        -uint a;
+        -address recipient ; //define the address of  etheruem 
+        -bytes32 data; //binary data 
+        
+  - 2. Variable-size types
+        -string name; 
+        -bytes _data;  
+        -uint[] amounts; //predefined array
+        -mapping(uint => string) users; 
+        
+  - 3. user-defined data 
+        -struct User{uint id;
+                      string name; 
+                      uint[] ids; }
+        -enum Color{
+                    RED,
+                    GREEN,
+                    BLUE
+                    }
