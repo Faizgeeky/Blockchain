@@ -1,0 +1,56 @@
+$ Solidity 
+ - Solidity is an object-oriented, high-level language for implementing smart contracts.
+    + Object-oriented 
+      - The object oriented programming lang is bascially a computer programming design philosophy or methodology that organize
+          /models software design around data, or objects rather than functions and logic.
+          
+          An object is referred to as a data field that has uniqure attributes and behaviour. Everythig in OOP is grouped as self-sustainalble Objects.
+          
+     + High level :
+        - It allows users to write user friendly programms which are secure (absctracted)
+        
+ - Smart contracts are programs which govern the behaviour of accouts whithin the Ethereum state.
+  + Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all participants can be immediately certain of the outcome, without any intermediary's involvement or time loss.
+  
+  * If you know C++ , python and js it will be very easy to grip on it. as it incflued from all these 3 lang
+  
+  ** With Solidity you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.
+  
+  ** When you deploy your contract make sure you use latest version as it also keeps updating and come up with better bug free featuren in updates.
+  
+  -- Solidity use 0.y.z version number to indicate this fast pace of change.
+  
+  
+  
+  1. Understant th Smart Contract Basics 
+  - Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all participants
+    can be immediately certain of the outcome, without any intermediary’s involvement or time loss.
+   
+  - (Should know what is Blockchain before moving. https://github.com/Faizgeeky/Blockchain/blob/main/Day1.txt )
+  - Ethereum Virtual Machine 
+    + The Ethereum Virtual Machine or EVM is the runtime environment for smart contracts in Ethereum. It is not only sandboxed but actually completely isolated, which means that code running inside the EVM has no access to network, filesystem or other processes.
+    Smart contracts even have limited access to other smart contracts
+    
+    
+    ++++ Sample of contract structure +++++
+          pragma solidity >=0.4.16 <0.9.0;
+          contract SimpleStorage {
+              uint storedData;
+
+              function set(uint x) public {
+                  storedData = x;
+              }
+
+              function get() public view returns (uint) {
+                  return storedData;
+              }
+          }
+          
+    -> Line 1 :  version of Solidity
+       Line 2 : collection of sol code (function) 
+            Line 3 : Variable named storedData and data type unsigned Int
+            Next 2 function will set the value of X and another return the value of X vaarabile which will be                           displayed whil executing contract
+   
+    
+  
+  
