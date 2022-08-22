@@ -84,6 +84,13 @@ $ Solidity
 
       Modifiers are inheritable properties of contracts and may be overridden by derived contracts, but only if they are marked virtual. For details, please see Modifier Overriding.
       
+      
+    * Constructor 
+    
+      + constructor identifier
+        i.e. constructor() public {
+             //.code 
+            }
    
       
        
