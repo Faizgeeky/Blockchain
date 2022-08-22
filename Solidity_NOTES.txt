@@ -52,5 +52,40 @@ $ Solidity
             Next 2 function will set the value of X and another return the value of X vaarabile which will be                           displayed whil executing contract
    
     
-  
+      More about contract 
+       #  SPDX Lincense Identifier 
+         - //SPDX-License-Identifier: MIT  (https://spdx.org/licenses/)
+         
+       If you do not want to specify a license or if the source code is not open-source, please use the special value UNLICENSED. Note that UNLICENSED (no usage allowed, not present in SPDX license list) 
+       is different from UNLICENSE (grants all rights to everyone).
+       
+    * SYNTAX 
+     - Importing files
+       + It's same as Python 
+         + import "filename" ;
+         + import * as symbolname from "filename";
+         + import "filename" as symbolName;
+         
+    * Commenets 
+     - Single line "//"
+     - multi-line "/* .... */"
+     
+     
+    * State Variables
+       datatype variable name
+       i.e. unit variableName;
+
+    * Functions
+       function {}
+      
+   
+    * Function Modifiers
+      Modifiers can be used to change the behaviour of functions in a declarative way. For example, you can use a modifier to automatically check a condition prior to executing the function.
+
+      Modifiers are inheritable properties of contracts and may be overridden by derived contracts, but only if they are marked virtual. For details, please see Modifier Overriding.
+      
+   
+      
+       
+       
   
