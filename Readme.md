@@ -1,4 +1,4 @@
-# Flow to learn BLOCKCHAIN
+# BLOCKCHAIN flow to learn for beginner
 
 
 ## Step 1:
