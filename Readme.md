@@ -1,4 +1,4 @@
-# BLOCKCHAIN flow to learn for beginner
+# Blockchain flow for beginner
 
 
 ## Step 1:
