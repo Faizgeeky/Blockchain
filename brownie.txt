@@ -1,0 +1,32 @@
+Handful Commands for Brownie framework
+
+Setup 
+https://github.com/eth-brownie/brownie/tree/86258c7bdf194c800ae44e853b7c55fab60a23ce
+
+
+Create Brownie Project
+- brownie init
+
+List all usefull functions
+- brownie -h 
+
+Run and complie contracts 
+- bronie compile
+
+Run the script 
+- brownie run script/FILENAME
+
+NOTE : Brownie automatically loads the ganache-cli loclhost 
+
+Add new Eth or testnet acc 
+- brownie accounts new accName
+  -- will ask for Private key use "0x" in the begining of the key
+
+List out Accounts. [ It will load eth/ testacc accounts linked ] 
+- brownie accounts list
+
+Delete testnet acc
+- brownie accounts delete ACCOUNT_NAME
+
+incase if working external account 
+for python :  account = accounts.load("ACCOUNT_NAME")
