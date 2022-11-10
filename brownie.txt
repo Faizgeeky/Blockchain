@@ -37,3 +37,7 @@ write your conract tests under Test direcroty start with test_.py
 
 Test particular function 
 - brownie Test -k test_functionName
+
+Test variable state run time inacse of error
+- brownie Test --pdb
+
